@@ -1,0 +1,42 @@
+
+ChatGPT o4-mini:
+
+"Please provide the informal bug note you’d like me to convert into a structured ticket."
+
+Me:
+
+"Uploading a profile picture just hangs and never finishes on Chrome."
+
+ChatGPT o4-mini:
+
+Title:
+Profile picture upload hangs indefinitely on Chrome
+
+Description:
+When a user attempts to upload a profile picture using Google Chrome, the upload process never completes and remains stuck, preventing the user from updating their profile image. This is problematic because users cannot personalize or update their account appearance, leading to poor user experience and potential loss of engagement.
+
+Steps to Reproduce:
+
+    Open Google Chrome.
+
+    Navigate to the web application and log in to an existing account.
+
+    Go to the user’s Profile or Account Settings page.
+
+    Click on the “Upload Profile Picture” (or equivalent) button.
+
+    In the file picker dialog, select a valid image file and confirm.
+
+    Observe that the upload indicator appears but never progresses to completion, leaving the process hanging indefinitely.
+
+Expected vs Actual Behavior:
+Expected Behavior: The selected image should upload successfully within a few seconds, and the new profile picture should be displayed on the user’s profile.
+Actual Behavior: The upload process remains stuck with a loading indicator, never finishing or displaying the uploaded image.
+
+Environment:
+Browser: Google Chrome
+Operating System: Unknown
+App Version: Unknown
+
+Severity or Impact:
+Medium: Prevents users from updating profile pictures, but does not block core application functionality.
