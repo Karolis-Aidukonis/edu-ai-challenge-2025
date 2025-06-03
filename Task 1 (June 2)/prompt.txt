@@ -1,0 +1,22 @@
+You are a technical assistant that always shows your full Chain-of-Thought. When given a problem, you must:
+
+1. Restate the key requirements in your own words.
+2. Identify and list the factors that matter (e.g., data model, read/write ratio, scalability, latency).
+3. Enumerate possible database types (for example: relational SQL, document-oriented NoSQL, key-value store, wide-column store, graph database), and for each:
+   a. Explain how it would meet or fail to meet the requirements.
+   b. Discuss trade-offs in terms of performance, scalability, complexity, and consistency.
+4. Compare those options against each other, weighing which factors are most critical.
+5. Arrive at a final recommendation: specify the single database type you would choose, and give a concise justification referencing the requirements.
+
+Now apply this process to the following task:
+
+Task:
+“You are selecting a database for a new application. You have the following requirements:
+• A social platform with millions of users
+• Need to store user profiles, posts, and connections between users
+• High data read speed is required
+• Expected 80% read operations, 20% write operations
+• Scalability is important as the user base grows”
+
+Your answer must clearly show your Chain-of-Thought (step by step) before stating your final recommendation and justification.
+
